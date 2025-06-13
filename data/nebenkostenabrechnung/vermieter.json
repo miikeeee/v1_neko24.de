@@ -1,0 +1,65 @@
+{
+  "slug": "vermieter",
+  "title": "Nebenkostenabrechnung für Vermieter erstellen | neko24.de",
+  "metaDescription": "Erstellen Sie als Vermieter Ihre Nebenkostenabrechnung schnell, sicher und gesetzeskonform. neko24.de unterstützt Sie bei allen Schritten.",
+  "h1": "Nebenkostenabrechnung für Vermieter",
+  "heroText": "Ihre professionelle Nebenkostenabrechnung als Vermieter – Schnell. Sicher. Gesetzeskonform.",
+  "introText": "Mit neko24.de sparen Sie als Vermieter Zeit, Kosten und Nerven bei der Erstellung Ihrer Nebenkostenabrechnung.",
+  "sections": [
+    {
+      "heading": "Darum neko24.de für Vermieter",
+      "content": "Unsere Plattform bietet Ihnen als Vermieter eine automatisierte Erstellung von Nebenkostenabrechnungen, die rechtskonform und einfach bedienbar ist. Wir unterstützen Sie bei allen Schritten, von der Erfassung der Kosten bis zur fertigen Abrechnung, und minimieren das Risiko von Fehlern und rechtlichen Problemen."
+    },
+    {
+      "heading": "Wie funktioniert es?",
+      "content": "In wenigen Schritten zur rechtssicheren Abrechnung: Daten eingeben, Kosten zuordnen, Abrechnung generieren – fertig! Unser System führt Sie durch den gesamten Prozess und stellt sicher, dass alle relevanten Informationen korrekt erfasst werden."
+    },
+    {
+      "heading": "Rechtssicherheit für Vermieter",
+      "content": "Als Vermieter tragen Sie die Verantwortung für korrekte und fristgerechte Nebenkostenabrechnungen. Unsere Software sorgt dafür, dass alle gesetzlichen Anforderungen erfüllt werden, einschließlich der korrekten Umlagefähigkeit von Kosten und der Einhaltung von Fristen."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welche Fristen muss ich als Vermieter bei der Nebenkostenabrechnung beachten?",
+      "answer": "Als Vermieter müssen Sie die Nebenkostenabrechnung spätestens 12 Monate nach Ende des Abrechnungszeitraums dem Mieter zustellen. Unsere Software erinnert Sie automatisch an diese Frist."
+    },
+    {
+      "question": "Welche Kosten kann ich als Vermieter umlegen?",
+      "answer": "Als umlagefähig gelten Betriebskosten gemäß der Betriebskostenverordnung. Dazu gehören unter anderem Kosten für Wasser, Abwasser, Heizung, Müllabfuhr und Hausreinigung. Unsere Software hilft Ihnen bei der korrekten Zuordnung."
+    },
+    {
+      "question": "Wie gehe ich mit Leerständen in der Abrechnung um?",
+      "answer": "Bei Leerständen müssen Sie als Vermieter die entsprechenden Kosten übernehmen. Unsere Software ermöglicht eine einfache Erfassung von Leerstandszeiten und berechnet automatisch die korrekte Kostenverteilung."
+    },
+    {
+      "question": "Kann ich als privater Vermieter neko24.de nutzen?",
+      "answer": "Ja, unsere Plattform ist sowohl für private Vermieter als auch für professionelle Hausverwaltungen geeignet und passt sich an Ihre individuellen Bedürfnisse an."
+    }
+  ],
+  "cta": {
+    "text": "Jetzt Nebenkostenabrechnung erstellen",
+    "url": "https://app.neko24.de"
+  },
+  "structuredData": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Welche Fristen muss ich als Vermieter bei der Nebenkostenabrechnung beachten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als Vermieter müssen Sie die Nebenkostenabrechnung spätestens 12 Monate nach Ende des Abrechnungszeitraums dem Mieter zustellen. Unsere Software erinnert Sie automatisch an diese Frist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Welche Kosten kann ich als Vermieter auf den Mieter umlegen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als umlagefähig gelten Betriebskosten gemäß der Betriebskostenverordnung. Dazu gehören unter anderem Kosten für Wasser, Abwasser, Heizung, Müllabfuhr und Hausreinigung. Unsere Software hilft Ihnen bei der korrekten Zuordnung."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "heizkosten",
+  "title": "Heizkostenabrechnung erstellen – Schnell & Gesetzeskonform | neko24.de",
+  "metaDescription": "Erstellen Sie Ihre Heizkostenabrechnung mit wenigen Klicks. Vollständig rechtskonform, schnell, digital.",
+  "hero": {
+    "headline": "Heizkostenabrechnung",
+    "text": "Ihre professionelle Heizkostenabrechnung – Schnell. Sicher. Gesetzeskonform.",
+    "buttonText": "Jetzt starten",
+    "image": "/placeholder.svg?height=300&width=450"
+  },
+  "introText": "Mit neko24.de sparen Sie Zeit, Kosten und Nerven bei der Erstellung Ihrer Heizkostenabrechnung.",
+  "stickySection": {
+    "steps": [
+      {
+        "title": "Daten erfassen",
+        "text": "Erfassen Sie alle relevanten Daten für Ihre Heizkostenabrechnung."
+      },
+      {
+        "title": "Automatische Berechnung",
+        "text": "Unsere Software berechnet alle Kosten automatisch nach den Vorgaben der Heizkostenverordnung."
+      },
+      {
+        "title": "Fertige Abrechnung",
+        "text": "Erhalten Sie Ihre fertige Heizkostenabrechnung als PDF zum Versand an Ihre Mieter."
+      }
+    ],
+    "iconColor": "#22C55E"
+  },
+  "angebote": [
+    {
+      "name": "Nebenkostenabrechnung Basic",
+      "preisAlt": "69",
+      "preisNeu": "49",
+      "rabatt": "-29%",
+      "features": [
+        "Perfekt für eine Wohneinheit geeignet",
+        "Intuitive Schritt-für-Schritt Anleitung",
+        "100% gesetzeskonforme Abrechnung",
+        "Professioneller PDF-Export zum Versand",
+        "Schneller E-Mail Support bei Fragen",
+        "Automatische Berechnung aller Umlagen"
+      ],
+      "cta": "Jetzt starten"
+    },
+    {
+      "name": "Nebenkostenabrechnung Pro",
+      "badge": "Beliebt",
+      "preisAlt": "149",
+      "preisNeu": "99",
+      "rabatt": "-34%",
+      "features": [
+        "Ideal für bis zu 3 Wohneinheiten",
+        "3 Jahre lang unbegrenzt nutzbar",
+        "CO2-Preis automatisch berechnet",
+        "Automatischer E-Mail Versand an Mieter",
+        "Persönliche rechtliche Beratung inklusive",
+        "Kostenlose Updates und neue Features"
+      ],
+      "cta": "Jetzt starten"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Wie werden die Heizkosten korrekt verteilt?",
+      "answer": "Gemäß der Heizkostenverordnung müssen mindestens 50% und höchstens 70% der Heizkosten verbrauchsabhängig abgerechnet werden. Der Rest wird nach der Wohnfläche verteilt. Unsere Software berechnet diese Verteilung automatisch."
+    },
+    {
+      "question": "Was passiert, wenn Heizkostenverteiler defekt sind?",
+      "answer": "Bei defekten Heizkostenverteilern kann der Verbrauch geschätzt werden. Unsere Software bietet Ihnen verschiedene Möglichkeiten zur korrekten Schätzung gemäß den gesetzlichen Vorgaben."
+    },
+    {
+      "question": "Werden die neuen Anforderungen zur CO2-Bepreisung berücksichtigt?",
+      "answer": "Ja, unsere Software berücksichtigt die aktuellen Regelungen zur Verteilung der CO2-Kosten zwischen Vermietern und Mietern."
+    },
+    {
+      "question": "Kann ich die Abrechnung auch nachträglich ändern?",
+      "answer": "Ja, Sie können Ihre Abrechnungen jederzeit bearbeiten und anpassen, solange sie noch nicht an die Mieter versendet wurden."
+    }
+  ],
+  "structuredData": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wie werden die Heizkosten korrekt verteilt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gemäß der Heizkostenverordnung müssen mindestens 50% und höchstens 70% der Heizkosten verbrauchsabhängig abgerechnet werden. Der Rest wird nach der Wohnfläche verteilt. Unsere Software berechnet diese Verteilung automatisch."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Werden die neuen Anforderungen zur CO2-Bepreisung berücksichtigt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, unsere Software berücksichtigt die aktuellen Regelungen zur Verteilung der CO2-Kosten zwischen Vermietern und Mietern."
+        }
+      }
+    ]
+  },
+  "ctaFinal": {
+    "text": "Jetzt Heizkostenabrechnung erstellen",
+    "url": "https://app.neko24.de"
+  },
+  "contentImages": {
+    "section1": {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Heizkostenabrechnung Dashboard"
+    },
+    "section2": {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Heizkosten Berechnungsprozess"
+    },
+    "section3": {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "CO2-Bepreisung Rechtssicherheit"
+    },
+    "section4": {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Heizkostenverordnung Compliance"
+    }
+  }
+}

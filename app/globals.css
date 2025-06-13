@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 252 59% 58%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 252 59% 58%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 252 59% 58%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 252 59% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Primary Button Hover Effect */
+  .button-hover-effect {
+    @apply relative overflow-hidden transition-all duration-300 ease-out;
+    @apply hover:scale-105 hover:shadow-lg;
+  }
+
+  .button-hover-effect::before {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent;
+    @apply -translate-x-full skew-x-12 transition-transform duration-700;
+  }
+
+  .button-hover-effect:hover::before {
+    @apply translate-x-full;
+  }
+
+  /* Outline Button Hover Effect - Same shimmer as primary but keeps text readable */
+  .button-hover-effect-outline {
+    @apply relative overflow-hidden transition-all duration-300 ease-out;
+    @apply hover:scale-105 hover:shadow-lg;
+  }
+
+  .button-hover-effect-outline::before {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent;
+    @apply -translate-x-full skew-x-12 transition-transform duration-700;
+  }
+
+  .button-hover-effect-outline:hover::before {
+    @apply translate-x-full;
+  }
+
+  .button-hover-effect-outline > * {
+    @apply relative z-10;
+  }
+
+  /* Secondary Button Hover Effect - Same as Primary but with secondary colors */
+  .button-hover-effect-secondary {
+    @apply relative overflow-hidden transition-all duration-300 ease-out;
+    @apply hover:scale-105 hover:shadow-lg;
+  }
+
+  .button-hover-effect-secondary::before {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-r from-transparent via-primary/20 to-transparent;
+    @apply -translate-x-full skew-x-12 transition-transform duration-700;
+  }
+
+  .button-hover-effect-secondary:hover::before {
+    @apply translate-x-full;
+  }
+
+  .button-hover-effect-secondary > * {
+    @apply relative z-10;
+  }
+}
